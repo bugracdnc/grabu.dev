@@ -27,12 +27,6 @@ body {
   display: flex;
   justify-content: center;
 }
-.btn-print {
-  z-index: 1;
-  position: absolute;
-  right: 20px;
-  top: 20px;
-}
 .resume {
   display: block;
   font-family: 'Roboto', sans-serif;
@@ -59,7 +53,7 @@ body {
   margin-bottom: 0;
 }
 .resume ul {
-  padding-left: 20px;
+  padding-left: 15px;
 }
 .resume .resume__header,
 .resume .resume__section {
@@ -70,7 +64,7 @@ body {
   padding: 6em 4em 0;
 }
 .resume .resume__section {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 .resume .resume__section:last-child {
   padding-bottom: 0;
@@ -105,12 +99,12 @@ body {
 }
 .resume .resume__main {
   float: left;
-  width: 75%;
+  width: 70%;
   padding-right: 6em;
 }
 .resume .resume__side {
   float: left;
-  width: 25%;
+  width: 30%;
 }
 .resume .other-info p > b {
   color: #555;
@@ -137,7 +131,7 @@ body {
   color: #222;
 }
 .resume .xp-item {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 .resume .xp-item:last-child {
   margin-bottom: 0;
@@ -178,7 +172,7 @@ body {
 .resume .extra-details {
   margin-top: 0.5em;
   background-color: #d1d9e1;
-  width: 100%;
+  width: 80%;
   height: 5px;
   position: relative;
 }
@@ -201,8 +195,5 @@ body {
 @media print {
   body {
     min-width: initial !important;
-  }
-  .btn-print {
-    display: none;
   }
 }
