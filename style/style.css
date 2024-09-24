@@ -27,6 +27,31 @@ body {
   display: flex;
   justify-content: center;
 }
+.lang {
+  justify-content: end;
+  display: flex;
+  padding-left: 5px;
+  font-size: x-large;
+}
+.alang {
+  margin-right: 5px;
+}
+.gray {
+  filter: grayscale(90%);
+}
+a:link {
+  color: #222;
+}
+a:active {
+  color: #222;
+}
+a:hover {
+  color: #555;
+  text-decoration: none;
+}
+a:visited {
+  color: #222;
+}
 .resume {
   display: block;
   font-family: 'Roboto', sans-serif;
