@@ -8,8 +8,8 @@ import (
 
 func servePdf(w http.ResponseWriter, r *http.Request) {
 	locale := r.URL.Query().Get("locale")
-	cvEn := "static/pdf/cv-bugra.pdf"
-	cvTr := "static/pdf/cv-bugra-tr.pdf"
+	cvEn := "static/pdf/cv-grabu.pdf"
+	cvTr := "static/pdf/cv-grabu-tr.pdf"
 	w.Header().Set("Content-Type", "application/pdf")
 	if strings.Contains(strings.ToLower(locale), "tr") {
 		http.ServeFile(w, r, cvTr)
