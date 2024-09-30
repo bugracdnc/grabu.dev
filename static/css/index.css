@@ -4,7 +4,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     background-color: #111;
-    color: #AAA;
+    color: #EEE;
 }
 
 #icon_container {
@@ -29,11 +29,11 @@ a {
 }
 
 a:link, a:visited {
-    color: #AAA;
+    color: #AAF;
 }
 
 a:hover {
-    color: #777;
+    color: #77C;
 }
 
 .commandLine {
@@ -46,4 +46,8 @@ span {
 
 .PS1 {
     color: #1A1;
+}
+
+.comment {
+	color: #222
 }
