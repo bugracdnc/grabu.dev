@@ -1,0 +1,53 @@
+body {
+    font-family: 'Fira Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #111;
+    color: #EEE;
+}
+
+#icon_container {
+    display: flex;
+}
+
+#icon_container #icon{
+    font-size: 6px;
+}
+
+#info {
+    margin: auto 5em;
+    padding: 1em;
+}
+
+.info_entry {
+    margin-top: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #AAF;
+}
+
+a:hover {
+    color: #77C;
+}
+
+.commandLine {
+    margin-top: 1em;
+}
+
+span {
+    margin-left: 0.5em;
+}
+
+.PS1 {
+    color: #1A1;
+}
+
+.comment {
+	color: #222
+}
