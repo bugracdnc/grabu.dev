@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"net/http"
 	"strings"
+	"log"
 )
 
 func servePdf(w http.ResponseWriter, r *http.Request) {
@@ -19,12 +20,11 @@ func servePdf(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.Handle("/", http.FileServer(http.Dir("static")))
-	http.HandleFunc("/pdf", servePdf)
+	http.HandleFunc("/cv", servePdf)
 
-	fmt.Println("Starting server on :8080...")
-	err := http.ListenAndServe(":8080", nil)
+	fmt.Println("Starting server on :443...")
+	err := http.ListenAndServe(":443", nil)
 	if err != nil {
-		fmt.Println(err)
-		return
+		log.Panic(err)
 	}
 }
