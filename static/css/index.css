@@ -2,21 +2,29 @@ body {
     font-family: 'Fira Mono', monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    background-color: #111;
+    font-size: 15px;
+    background-color: #001;
     color: #EEE;
 }
+
+.wrapper {
+    max-height: fit-content;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 
 #icon_container {
     display: flex;
 }
 
 #icon_container #icon{
-    font-size: 6px;
+    font-size: 8px;
 }
 
 #info {
-    margin: auto 5em;
     padding: 1em;
 }
 
