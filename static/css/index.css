@@ -10,10 +10,6 @@ body {
 .wrapper {
     max-height: fit-content;
     max-width: 450px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
   }
 
 #icon_container {
