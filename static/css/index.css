@@ -26,6 +26,7 @@ body {
 
 #info {
     padding: 1em;
+    margin: 0;
 }
 
 .info_entry {
@@ -37,11 +38,12 @@ a {
 }
 
 a:link, a:visited {
-    color: #AAF;
+    color: #88F;
 }
 
 a:hover {
-    color: #77C;
+    color: #44C;
+    text-decoration: underline;
 }
 
 .commandLine {
