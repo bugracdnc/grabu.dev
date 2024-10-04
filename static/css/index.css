@@ -2,14 +2,14 @@ body {
     font-family: 'Fira Mono', monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     background-color: #001;
     color: #EEE;
 }
 
 .wrapper {
     max-height: fit-content;
-    max-width: 450px;
+    max-width: 375px;
   }
 
 #icon_container {
