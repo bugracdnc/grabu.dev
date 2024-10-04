@@ -28,7 +28,7 @@ func main() {
 	}
 
 	http.Handle("/", http.FileServer(http.Dir("static")))
-	http.HandleFunc("/cv", servePdf)
+	http.HandleFunc("cv", servePdf)
 
 	fmt.Printf("Starting server on %s...\n\n", port[0])
 	err := http.ListenAndServe(port[0], nil)
