@@ -34,23 +34,25 @@ body {
     justify-content: end;
     display: flex;
     padding-left: 5px;
-    font-size: x-large;
+    font-size: smaller;
+    font-weight: 100;
 }
 
 .alang {
-    margin-right: 5px;
+    margin-right: 10px;
+    margin-top: 10px
 }
 
-.gray {
-    filter: grayscale(90%);
+.selected {
+    color: #222;
 }
 
 a:link {
-    color: #222;
+    color: #AAA;
 }
 
 a:active {
-    color: #222;
+    color: #AAA;
 }
 
 a:hover {
