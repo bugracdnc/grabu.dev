@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=0.8" />
-  <title>Buğra Çalışkandinç CV EN</title>
+  <title>Buğra Çalışkandinç CV TR</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="../css/cv.css" />
+  <link rel="stylesheet" href="cv.css" />
 </head>
 
 <body>
@@ -21,12 +21,12 @@
     <div class="sheet" style="height: auto">
       <div class="two-column resume">
         <div class="lang">
-          <span class="alang"><a href="tr">T R</a>&nbsp;&nbsp;|&nbsp;&nbsp;E N</span>
+          <span class="alang selected">T R&nbsp;&nbsp;|&nbsp;&nbsp;<a href="en">E N</a></span>
         </div>
         <section class="resume__section resume__header">
           <div class="resume__content">
-            <img alt="a picture of buğra çalışkandinç" src="../img/avatar.jpg"
-              style="width: 180px; float: right; display: flex" />
+            <img src="../img/avatar.jpg" style="width: 180px; float: right; display: flex"
+              alt="a picture of buğra çalışkandinç" />
             <h1>Buğra Çalışkandinç</h1>
             <div class="info-item">
               <span class="info-label"><i class="fa fa-envelope"></i></span><span
@@ -44,8 +44,7 @@
                 Tekirdağ</span>
             </div>
             <div class="info-item">
-              <span class="info-label"><i class="fa">»</i></span><span class="info-text"> Driver's License: Class
-                B</span>
+              <span class="info-label"><i class="fa">»</i></span><span class="info-text"> Ehliyet: B sınıfı</span>
             </div>
           </div>
         </section>
@@ -55,93 +54,92 @@
               <div class="resume__content">
                 <div class="resume__section-title">
                   <i class="fa fa-briefcase"></i>
-                  <h2>Experiences</h2>
+                  <h2>Tecrübeler</h2>
                 </div>
                 <div class="xp-item">
                   <div class="xp-job">
-                    English Teacher
-                    <span>Bi'Not Educational Institutions</span><br />
+                    İngilizce Öğretmenliği
+                    <span>Bi'Not Eğitim Kurumları</span><br />
                     <small>Çerkezköy - Tekirdağ</small>
                   </div>
-                  <div class="xp-date">September 2023 – June 2024</div>
+                  <div class="xp-date">Eylül 2023 - Haziran 2024</div>
                   <div class="xp-detail">
                     <ul>
                       <li>
-                        Created lesson plans tailored to different grade
-                        levels in the English department.
+                        İngilizce bölümü sınıf seviyelerine göre ders planı
+                        hazırlanması
                       </li>
-                      <li>Coordinated the educational process.</li>
+                      <li>Eğitim süreci koordinasyonu</li>
                       <li>
-                        Provided individual educational consulting for high
-                        school and university students.
+                        Lise ve üniversite düzeyinde bireysel eğitim
+                        danışmanlığı
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div class="xp-item">
                   <div class="xp-job">
-                    Receptionist
+                    Resepsiyonist
                     <span>Temizay Hotel</span><br /><small>Çanakkale</small>
                   </div>
-                  <div class="xp-date">May 2022 – April 2023</div>
+                  <div class="xp-date">Mayıs 2022 - Nisan 2023</div>
                   <div class="xp-detail">
                     <ul>
                       <li>
-                        Developed solutions to ease and fasten data entry processes and help workplace efficiency
+                        Veri girişini kolaylaştıran çözümler geliştirerek tekrar gerektiren işlemleri hızlandırdım ve
+                        çalışma performansını arttırdım.
                       </li>
                       <li>
-                        Eased the group booking process with schemes to help manage individual workload
+                        Grup konaklama sürecini şablonlar ile hızlandırarak bireysel iş yükünü hafiflettim.
                       </li>
                       <li>
-                        Maintained hotel and reception computer systems.
+                        Hotel ve resepsiyon bilgisayarlarının bakımı,
+                        işlevselliğini sağladım.
                       </li>
                       <li>
-                        Communication with and guidance for international
-                        guests.
+                        Yabancılar ile iletişim ve rehberlik servisi sağladım.
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div class="xp-item">
                   <div class="xp-job">
-                    Technical Support Staff
-                    <span>Çanakkale Onsekiz Mart University, Faculty of Arts
-                      and Sciences</span><br /><small>Çanakkale</small>
+                    Teknik Birim Personeli
+                    <span>Çanakkale Onsekiz Mart Üniversitesi Fen ve Edebiyat
+                      Fakültesi</span><br /><small>Çanakkale</small>
                   </div>
-                  <div class="xp-date">October 2017 – June 2018</div>
+                  <div class="xp-date">Ekim 2017 - Haziran 2018</div>
                   <div class="xp-detail">
                     <ul>
-                      <li>Developed security solutions to faculty-wide computer virus outbreak and secured the academy
-                        computers</li>
+                      <li>Tüm fakültedeki virüs salgınına karşı güvenlik çözümleri geliştirerek bilgisayarları güvenli
+                        hale getirdim.</li>
+                      <li>Akademisyenler için teknik servis desteği sağlayarak süreçlerine yardımcı oldum.</li>
                       <li>
-                        Helped the academicians with IT support and helped their processes
+                        Coğrafya, Matematik ve genel bilgisayar
+                        laboratuvarlarının bakımı ve onarımından sorumluydum.
                       </li>
                       <li>
-                        Maintained Geography, Mathematics, and general use
-                        computer labs
-                      </li>
-                      <li>
-                        Ensured functionality of the faculty's operating
-                        systems and software.
+                        Fakülte geneli kullanılan işletim sistemi ve
+                        programların işlevsel tutulmasında görev aldım.
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div class="xp-item">
                   <div class="xp-job">
-                    IT Intern
-                    <span>Yenasoft Software</span><br /><small>İstanbul</small>
+                    Bilgi İşlem Stajyeri
+                    <span>Yenasoft Yazılım</span><br /><small>İstanbul</small>
                   </div>
-                  <div class="xp-date">July 2014</div>
+                  <div class="xp-date">Temmuz 2014</div>
                   <div class="xp-detail">
                     <ul>
-                      <li>Provided technical support to staff.</li>
+                      <li>Personel için teknik servis desteği</li>
                       <li>
-                        Contributed to the renewal of office network
-                        infrastructure.
+                        Ofis içi ağ altyapısı yenileme çalışmalarına katkı
                       </li>
                       <li>
-                        Developed digital solutions to ease employee tasks.
+                        Personelin işini kolaylaştıracak dijital çözümler
+                        geliştirme
                       </li>
                     </ul>
                   </div>
@@ -155,31 +153,31 @@
               <div class="resume__content">
                 <div class="resume__section-title">
                   <i class="fa fa-align-center"></i>
-                  <h2>Education</h2>
+                  <h2>Eğitim</h2>
                 </div>
                 <div class="xp-item" style="margin-bottom: 15px">
                   <div class="xp-job">
-                    English Language and Literature<br />
-                    <small>Çanakkale Onsekiz Mart University</small>
+                    İngiliz Dili ve Edebiyatı<br />
+                    <small>Çanakkale Onsekiz Mart Üniversitesi</small>
                   </div>
                   <div class="xp-date">2016 - 2022</div>
                 </div>
                 <div class="xp-item">
                   <div class="xp-job">
-                    Web Programming<br />
-                    <small>Handan Hayrettin Yelkikanat Vocational and Technical
-                      Anatolian High School</small>
+                    Web Programlama<br />
+                    <small>Handan Hayrettin Yelkikanat Mesleki Ve Teknik Anadolu
+                      Lisesi</small>
                   </div>
                   <div class="xp-date">2010 - 2015</div>
                 </div>
                 <div class="resume__section-title">
                   <i class="fa fa-align-center"></i>
-                  <h2>Skills</h2>
+                  <h2>Beceriler</h2>
                 </div>
                 <div class="resume__text">
                   <div class="extra">
                     <div class="extra-info">
-                      Office Apps Efficiency<br /><small>Microsoft Excel, Word, Powerpoint</small>
+                      Ofis Programları<br /><small>Microsoft Excel, Word, Powerpoint</small>
                     </div>
                     <div class="extra-details">
                       <div class="extra-details__progress" style="width: 100%"></div>
@@ -187,7 +185,7 @@
                   </div>
                   <div class="extra">
                     <div class="extra-info">
-                      Technical IT and Programming Skills<br /><small>Python, Go, Typescript</small>
+                      Bilgisayar Donanım Yazılım Bilgisi<br /><small>Python, Go, Typescript</small>
                     </div>
                     <div class="extra-details">
                       <div class="extra-details__progress" style="width: 90%"></div>
@@ -195,7 +193,7 @@
                   </div>
                   <div class="extra">
                     <div class="extra-info">
-                      Operating Systems<br /><small>GNU/Linux - Windows</small>
+                      İşletim Sistemleri<br /><small>GNU/Linux - Windows</small>
                     </div>
                     <div class="extra-details">
                       <div class="extra-details__progress" style="width: 85%"></div>
@@ -208,11 +206,11 @@
               <div class="resume__content">
                 <div class="resume__section-title">
                   <i class="fa fa-globe"></i>
-                  <h2>Languages</h2>
+                  <h2>Yabancı Dil</h2>
                 </div>
                 <div class="extra">
                   <div class="extra-info">
-                    English<br /><small>C1</small>
+                    İngilizce<br /><small>C1</small>
                   </div>
                   <div class="extra-details">
                     <div class="extra-details__progress" style="width: 85%"></div>
@@ -220,7 +218,7 @@
                 </div>
                 <div class="extra">
                   <div class="extra-info">
-                    Italian<br /><small>A2</small>
+                    İtalyanca<br /><small>A2</small>
                   </div>
                   <div class="extra-details">
                     <div class="extra-details__progress" style="width: 30%"></div>
