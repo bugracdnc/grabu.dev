@@ -1,0 +1,29 @@
+#app {
+  margin: 0 0;
+  padding: 1rem;
+  max-height: fit-content;
+  max-width: clamp(450px, 50%, 800px);
+}
+
+body {
+  font-family: 'Fira Mono', monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  background-color: #001;
+  color: #eee;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #88f;
+}
+
+a:hover {
+  color: #44c;
+  text-decoration: underline;
+}
