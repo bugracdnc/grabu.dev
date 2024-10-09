@@ -22,13 +22,13 @@ commands.push({
 commands.push({
   comment: 'my cv in english',
   command: 'curl',
-  link: 'cv/en',
+  link: 'cv/en.html',
   text: 'grabu.dev/cv/en'
 })
 commands.push({
   comment: 'türkçe özgeçmişim',
   command: 'curl',
-  link: 'cv/tr',
+  link: 'cv/tr.html',
   text: 'grabu.dev/cv/tr'
 })
 </script>
@@ -38,8 +38,7 @@ commands.push({
     <span class="comment"># {{ command.comment }}</span>
     <span class="PS1">$</span>
     {{ command.command }}
-    <a v-bind:href="command.link">{{ command.text }}</a
-    ><br /><br />
+    <a v-bind:href="command.link">{{ command.text }}</a><br /><br />
   </div>
 </template>
 
