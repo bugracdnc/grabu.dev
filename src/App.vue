@@ -5,6 +5,7 @@ import Commands from './components/CmdLines.vue'
 </script>
 
 <template>
+  <span class="PS1">$ > </span>echo "$grabu_dev"
   <TextIcon />
   <br />
   <Info />
