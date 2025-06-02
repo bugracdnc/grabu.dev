@@ -24,7 +24,7 @@ export default {
                     })
                 }
                 this.githubRepos = fetchedRepos.sort((a, b) =>
-                    a.updated_at > b.updated_at ? -1 : b.updated_at > a.updated_at ? 1 : 0
+                    a.updated_at! > b.updated_at! ? -1 : b.updated_at! > a.updated_at! ? 1 : 0
                 )
                 console.log(this.githubRepos)
             })
@@ -41,7 +41,9 @@ export default {
         <span class="PS1">$ ></span>
         {{ command.command }}
         <a v-bind:href="command.link">{{ command.text }}</a>
-        <span class="date">{{` (${command.updated_at.getDate().toString().padStart(2, "0")}-${(command.updated_at.getMonth()+1).toString().padStart(2, "0")}-${command.updated_at.getFullYear()} ${command.updated_at.getHours().toString().padStart(2, "0")}:${command.updated_at.getMinutes().toString().padStart(2, "0")})`}}</span>
+        <span class="date">{{
+            ` (${command.updated_at!.getDate().toString().padStart(2, '0')}-${(command.updated_at!.getMonth() + 1).toString().padStart(2, '0')}-${command.updated_at!.getFullYear()} ${command.updated_at!.getHours().toString().padStart(2, '0')}:${command.updated_at!.getMinutes().toString().padStart(2, '0')})`
+        }}</span>
         <br /><br />
     </div>
 </template>
