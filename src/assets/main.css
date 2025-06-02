@@ -39,6 +39,11 @@ hr {
   color: #444;
 }
 
+.date {
+  font-size: clamp(1rem, 1vw, 1.3rem);
+  color: #292929;
+}
+
 .PS1 {
   color: #1a1;
 }
