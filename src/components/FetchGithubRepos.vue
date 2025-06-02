@@ -1,8 +1,6 @@
 <script lang="ts">
 import { type Command } from './CmdLines.vue'
 
-
-let formatter
 export default {
     data() {
         const emptyData: Command[] = []
