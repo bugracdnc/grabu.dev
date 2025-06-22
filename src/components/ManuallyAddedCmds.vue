@@ -21,14 +21,14 @@ manualCommands.push({
     comment: 'my cv in english',
     command: 'curl',
     updated_at: undefined,
-    link: 'cv/en',
+    link: 'cv/en.html',
     text: 'grabu.dev/cv/en'
 })
 manualCommands.push({
     comment: 'türkçe özgeçmişim',
     command: 'curl',
     updated_at: undefined,
-    link: 'cv/tr',
+    link: 'cv/tr.html',
     text: 'grabu.dev/cv/tr'
 })
 </script>
